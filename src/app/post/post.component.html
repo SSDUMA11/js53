@@ -1,0 +1,15 @@
+<div class="body">
+    <div class="block"> 
+        <div class="picture">
+            <img [src]="avatar" alt="avatar">  
+        </div>
+
+        <div class="post">
+            <h2>{{title}}</h2>
+            <div class="post-text">{{text}}</div> 
+        </div>
+    </div>
+    <div class="button_remove">
+        <button (click)="onClick()">Remove user</button>
+    </div>
+</div>
